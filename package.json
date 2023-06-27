@@ -2,15 +2,13 @@
     "name": "awardtripfinder",
     "version": "1.0.0",
     "description": "",
-    "main": "build/index.js",
+    "main": "build/main.js",
     "type": "module",
     "scripts": {
-        "scripts": {
-            "dev": "npx nodemon ./src/index.ts",
-            "start": "npx tsc && node dist/index.js",
-            "build": "npx tsc",
-            "test": "echo \"Error: no test specified\" && exit 1"
-        }
+        "dev": "pnpm nodemon ./src/main.ts",
+        "start": "pnpm tsc && node build/main.js",
+        "build": "pnpm tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "",
